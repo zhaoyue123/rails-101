@@ -37,10 +37,12 @@ end
    end
  end
 
- private
+private
 
  def group_params
    params.require(:group).permit(:title, :description)
   end
+
+
 
 end
